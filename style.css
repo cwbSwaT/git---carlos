@@ -1,18 +1,107 @@
 body {
-    background-color: rgba(105, 105, 105, 0.863);
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
 }
-legend {
-    color: rgb(255, 0, 0);
+
+.exercise {
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-font {
-    color: white;
+
+.styled-text {
+  color: #3498db;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: 2px;
+  line-height: 1.5;
 }
-hr {
-    color: rgb(255, 255, 255);
-    width: 800px;
-    height: 2px;
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #3498db;
 }
-label {
-    color: rgb(87, 6, 6);
+
+.solid-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
+.solid-button:hover {
+  background-color: #2980b9;
+}
+
+.gradient-button {
+  background: linear-gradient(to right, #ff5733, #ffcc33);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.gradient-button:hover {
+  background: linear-gradient(to right, #e74c3c, #e5a253);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-box {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+}
+
+.custom-list {
+  list-style-type: none;
+}
+
+.custom-list li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.icon {
+  color: #f39c12;
+  font-size: 24px;
+}
+
+.styled-link {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.styled-link:hover {
+  color: #e74c3c;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3498db;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e
