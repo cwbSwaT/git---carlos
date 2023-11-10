@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa; /* Cor de fundo semelhante ao Instagram */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para o cabeçalho */
+    border-bottom: 1px solid #e5e5e5; /* Linha de separação semelhante ao Instagram */
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    text-align: center;
+    color: #262626; /* Cor do texto semelhante ao Instagram */
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: -120px;
+}
+
+.stats p {
+    margin: 5px 10px;
+    color: #262626; /* Cor do texto semelhante ao Instagram */
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+.photo-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.photo-group img {
+    margin-bottom: 10px;
+    border-radius: 8px; /* Borda levemente arredondada semelhante ao Instagram */
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+#icons {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+h1 {
+    font-size: 20px;
+    color: #262626; /* Cor do texto semelhante ao Instagram */
+}
